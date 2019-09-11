@@ -1,0 +1,20 @@
+.navbar {
+  background: #38aaa4;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(to right, #38aaa4, #9ad4d2);
+
+  .navbar-brand {
+    color: white;
+    font-size: 1.2em;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .nav-item {
+    text-align: center;
+  }
+  .nav-item:hover {
+    border-bottom: 2px solid black;
+  }
+}
