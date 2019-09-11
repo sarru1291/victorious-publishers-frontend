@@ -1,12 +1,14 @@
 import React from "react";
 import LOGO from "../../assets/images/logo.jpg";
+import { NavLink } from "react-router-dom";
 import "./navbar.scss";
 
 export default function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
+        
+        <a class="navbar-brand" href="/" href="javascript:function() { return false; }">
           <img src={LOGO} width="40" height="40" alt="" />
           &nbsp; &nbsp; Victorious Publishers (INDIA)
         </a>
@@ -24,34 +26,74 @@ export default function Navbar() {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <NavLink
+                to="/"
+                exact
+                className="nav-link"
+                activeClassName="activeNavbar"
+              >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+            <NavLink
+                to="/books"
+                exact
+                className="nav-link"
+                activeClassName="activeNavbar"
+              >
                 Books
-              </a>
+              </NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+            <NavLink
+                to="/journals"
+                exact
+                className="nav-link"
+                activeClassName="activeNavbar"
+              >
                 Journals
-              </a>
+              </NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+            <NavLink
+                to="/events"
+                exact
+                className="nav-link"
+                activeClassName="activeNavbar"
+              >
+                Events
+              </NavLink>
+            </li>
+            <li class="nav-item">
+            <NavLink
+                to="/authors"
+                exact
+                className="nav-link"
+                activeClassName="activeNavbar"
+              >
                 Authors
-              </a>
+              </NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+            <NavLink
+                to="/about"
+                exact
+                className="nav-link"
+                activeClassName="activeNavbar"
+              >
                 About
-              </a>
+              </NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Contact
-              </a>
+            <NavLink
+                to="/contact"
+                exact
+                className="nav-link"
+                activeClassName="activeNavbar"
+              >
+                contact
+              </NavLink>
             </li>
           </ul>
         </div>
