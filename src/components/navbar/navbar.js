@@ -6,7 +6,7 @@ import "./navbar.scss";
 export default function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         
         <a class="navbar-brand" href="/" href="javascript:function() { return false; }">
           <img src={LOGO} width="40" height="40" alt="" />

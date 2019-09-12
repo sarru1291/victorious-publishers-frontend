@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 80px;
   .slider-container {
     width: 100%;
     padding: 50px;
@@ -15,23 +16,29 @@
   }
 
   .latest-books {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     div:first-child {
       color: #60bcb8;
       font-size: 1.4em;
     }
     div:nth-child(2) {
-      display: flex;
-     
-    justify-content: center;
-    align-items: center;
       img {
         height: 300px;
         width: 15%;
         padding: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    .latest-books {
+      div:nth-child(2) {
+        flex-direction: column;
+        img {
+          width: 80%;
+          height: auto;
+        }
       }
     }
   }

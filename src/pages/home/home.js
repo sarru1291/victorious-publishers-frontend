@@ -66,11 +66,11 @@ export default class home extends React.Component {
             </div>
           </div>
 
-          <div className="latest-books">
+          <div className="latest-books d-flex justify-content-center align-items-center flex-column">
             <div>
               <p>LATEST BOOKS</p>
             </div>
-            <div>
+            <div class="d-flex justify-content-center align-items-center">
               <img src={LatestBook1} alt="latest-book-1" />
               <img src={LatestBook2} alt="latest-book-2" />
               <img src={LatestBook3} alt="latest-book-3" />
