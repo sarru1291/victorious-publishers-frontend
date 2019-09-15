@@ -1,11 +1,4 @@
 import React from "react";
-import Banner1 from "../../assets/images/banners/1.jpg";
-import Banner2 from "../../assets/images/banners/2.jpg";
-import LatestBook1 from "../../assets/images/latest-books/1.png";
-import LatestBook2 from "../../assets/images/latest-books/2.png";
-import LatestBook3 from "../../assets/images/latest-books/3.png";
-import LatestBook4 from "../../assets/images/latest-books/4.png";
-import LatestBook5 from "../../assets/images/latest-books/5.png";
 import "./home.scss";
 
 export default class home extends React.Component {
@@ -33,10 +26,18 @@ export default class home extends React.Component {
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src={Banner1} alt="First slide" />
+                  <img
+                    class="d-block w-100"
+                    src="https://res.cloudinary.com/sarru1291/image/upload/v1568550407/victoriouspublishers/banners/1.jpg"
+                    alt="First slide"
+                  />
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src={Banner2} alt="Second slide" />
+                  <img
+                    class="d-block w-100"
+                    src="https://res.cloudinary.com/sarru1291/image/upload/v1568550477/victoriouspublishers/banners/2.jpg"
+                    alt="Second slide"
+                  />
                 </div>
               </div>
               <a
@@ -71,11 +72,26 @@ export default class home extends React.Component {
               <p>LATEST BOOKS</p>
             </div>
             <div class="d-flex justify-content-center align-items-center">
-              <img src={LatestBook1} alt="latest-book-1" />
-              <img src={LatestBook2} alt="latest-book-2" />
-              <img src={LatestBook3} alt="latest-book-3" />
-              <img src={LatestBook4} alt="latest-book-4" />
-              <img src={LatestBook5} alt="latest-book-5" />
+              <img
+                src="https://res.cloudinary.com/sarru1291/image/upload/v1568550487/victoriouspublishers/latest-books/1.png"
+                alt="latest-book-1"
+              />
+              <img
+                src="https://res.cloudinary.com/sarru1291/image/upload/v1568550491/victoriouspublishers/latest-books/2.png"
+                alt="latest-book-2"
+              />
+              <img
+                src="https://res.cloudinary.com/sarru1291/image/upload/v1568550536/victoriouspublishers/latest-books/3.png"
+                alt="latest-book-3"
+              />
+              <img
+                src="https://res.cloudinary.com/sarru1291/image/upload/v1568550541/victoriouspublishers/latest-books/4.png"
+                alt="latest-book-4"
+              />
+              <img
+                src="https://res.cloudinary.com/sarru1291/image/upload/v1568550523/victoriouspublishers/latest-books/5.png"
+                alt="latest-book-5"
+              />
             </div>
           </div>
         </div>

@@ -1,11 +1,12 @@
 .footer {
   background: #6cc1bd;
-  padding: 10px;
-  background-image: linear-gradient(to right, #38aaa4, #9ad4d2);
+  padding: 10px; 
+  background-image: linear-gradient(to bottom right, #38aaa4, #9ad4d2);
   display: flex;
   justify-content: center;
   align-items: center;
   p {
     color: white;
   }
+  
 }

@@ -10,7 +10,7 @@ export default function Navbar() {
         
         <a class="navbar-brand" href="/" href="javascript:function() { return false; }">
           <img src={LOGO} width="40" height="40" alt="" />
-          &nbsp; &nbsp; Victorious Publishers (INDIA)
+          &nbsp; &nbsp; Victorious Publishers India
         </a>
         <button
           class="navbar-toggler"

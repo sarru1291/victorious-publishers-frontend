@@ -6,7 +6,7 @@ export default function Footer() {
     <>
       <div className="footer">
         
-          <p> © 2019 VICTORIOUS PUBLISHERS (INDIA). ALL RIGHTS RESERVED.</p>
+          <p> © 2019 VICTORIOUS PUBLISHERS INDIA. ALL RIGHTS RESERVED.</p>
         
       </div>
     </>
